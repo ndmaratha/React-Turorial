@@ -8,6 +8,7 @@ function Name() {
     const handleckick=(e)=>{
         e.preventDefault()
         setData([...data,{name,email}]);
+       
     }
   return (
     <div onSubmit={handleckick}>
